@@ -53,3 +53,8 @@ AND: 0101 & 0011 = 0001
 
 ## 📊 Simulation Results
 ![GTKWave Screenshot](docs/waveform/simulation_waveform.png)  
+
+
+## 📚 Documentation
+For a detailed breakdown of all ALU operations, see:  
+[![Truth Table](https://img.shields.io/badge/View-Truth_Table-FFD700)](./docs/op_table.md)
