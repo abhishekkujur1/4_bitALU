@@ -51,3 +51,5 @@ ADD:  5 +  3 =  8, Carry=0, Zero=0
 SUB:  5 -  3 =  2, Carry=1, Zero=0
 AND: 0101 & 0011 = 0001
 ```
+
+## 📊 Simulation Results
