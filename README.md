@@ -58,3 +58,13 @@ AND: 0101 & 0011 = 0001
 ## 📚 Documentation
 For a detailed breakdown of all ALU operations, see:  
 [![Truth Table](https://img.shields.io/badge/View-Truth_Table-FFD700)](./docs/op_table.md)
+
+## 🛠️ Toolchain
+Simulation: Icarus Verilog
+
+Waveform: GTKWave
+
+Editor: VS Code + Verilog HDL extension
+
+## 📜 License
+MIT License - Free for academic/industrial use.
