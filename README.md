@@ -34,15 +34,14 @@ Waveform Debugging: GTKWave visualization
 ## 🚀 Quick Start
 Simulation (Icarus Verilog + GTKWave)
 ```
-# Clone the repo
-git clone https://github.com/your_username/4_bitALU.git
-cd 4_bitALU
+# Compile the design and testbench
+iverilog -o sim/alu_sim -s tb_alu_4bit src/alu_4bit.v src/tb_alu_4bit.v
 
-# Run simulation (Linux/macOS)
-chmod +x run_sim.sh
-./run_sim.sh
+# Run the simulation
+vvp sim/alu_sim
 
-# Windows users: Double-click run_sim.bat
+# View waveform
+gtkwave sim/tb_alu_4bit.vcd
 ```
 
 ## Expected Output
