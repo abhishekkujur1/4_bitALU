@@ -52,3 +52,4 @@ AND: 0101 & 0011 = 0001
 ```
 
 ## 📊 Simulation Results
+![GTKWave Screenshot](docs/waveform/simulation_waveform.png)  
